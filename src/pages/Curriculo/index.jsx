@@ -5,7 +5,7 @@ import '../../styles/components/curriculo.sass';
 
 function Curriculo() {
   return (
-    <div id="portifolio">
+    <div id="portfolio">
       <h1>Pedro Mello</h1>
       <Sidebar />
       <MainContent />
