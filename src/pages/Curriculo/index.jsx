@@ -1,4 +1,4 @@
-import MainContent from '../../components/MainContent.jsx';
+import MainContent from '../../components/MainContent';
 import Sidebar from '../../components/Sidebar';
 
 import '../../styles/components/curriculo.sass';
