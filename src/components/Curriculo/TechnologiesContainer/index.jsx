@@ -19,7 +19,7 @@ import {
   SiRailway,
 } from "react-icons/si"
 
-import "../../../styles/components/technologiesContainer.sass";
+import "/../../../styles/components/technologiesContainer.sass";
 
 const TechnologiesContainer = () => {
   const frontend = [
