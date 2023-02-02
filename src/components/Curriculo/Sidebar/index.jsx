@@ -2,7 +2,7 @@ import SocialNetworks from '../SocialNetworks';
 import InformationContainer from '../InformationContainer';
 import Avatar from '../../../img/pedromello.jpg';
 
-import '../../../styles/components/sidebar.sass';
+import './../../../styles/components/sidebar.sass';
 
 const Sidebar = () => {
   return (
