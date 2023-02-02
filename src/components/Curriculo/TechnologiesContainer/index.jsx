@@ -7,7 +7,7 @@ import {
   DiNodejsSmall,
 } from "react-icons/di";
 
-import "../../styles/components/technologiesContainer.sass";
+import "../../../styles/components/technologiesContainer.sass";
 
 const TechnologiesContainer = () => {
   const technologies = [

@@ -1,6 +1,6 @@
 import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
 
-import '../../styles/components/socialNetworks.sass'
+import '../../../styles/components/socialNetworks.sass'
 
 function SocialNetworks() {
   const socialNetworks = [
