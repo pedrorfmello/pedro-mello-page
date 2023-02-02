@@ -11,11 +11,16 @@
 
     .technology-card
       @include mixins.center()
+      @include mixins.hoverTransitions(1)
       gap: 1rem
-      padding: 1rem
+      padding: 1rem 0.5rem
       border: 1px solid #333
-      width: 45%
+      width: 32%
       border-radius: variables.$card-border-radius
+
+      &:hover
+        @include mixins.hoverTransitions(1.05)
+        cursor: default
 
       h3
         color: variables.$text-color
@@ -34,12 +39,39 @@
     #js
       svg
         color: #f0db4F
-    #node
-      svg
-        color: #83cd29
-    #mysql
-      svg
-        color: #00618a
     #react
       svg
         color: #61dafb
+    #jquery
+      svg
+        color: #0868AC
+    #redux
+      svg
+        color: #764abc
+    #bootstrap
+      svg
+        color: #795fa1
+    #sass
+      svg
+        color: #CD6799
+    #materialui
+      svg
+        color: #1E88E5
+    #typescript
+      svg
+        color: #3178C6
+    #nodejs
+      svg
+        color: #3C873A
+    #docker
+      svg
+        color: #0db7ed
+    #mysql
+      svg
+        color: #00758f
+    #mongodb
+      svg
+        color: #36AF57
+    #railway
+      svg
+        color: #f5f5f5
