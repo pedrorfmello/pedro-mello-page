@@ -16,4 +16,8 @@
   content: ""
   background: variables.$gradient
   height: 3px
-  width: 30%
+  flex-grow: 1
+
+@mixin hoverTransitions($scale)
+  transition: .4s
+  transform: scale($scale)

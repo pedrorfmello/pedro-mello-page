@@ -1,5 +1,5 @@
-import MainContent from '../../components/MainContent';
-import Sidebar from '../../components/Sidebar';
+import MainContent from '../../components/Curriculo/MainContent';
+import Sidebar from '../../components/Curriculo/Sidebar';
 
 import '../../styles/components/curriculo.sass';
 
