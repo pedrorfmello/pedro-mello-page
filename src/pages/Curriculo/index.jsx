@@ -1,7 +1,7 @@
-import MainContent from './MainContent';
-import Sidebar from './Sidebar';
+import MainContent from './components/MainContent';
+import Sidebar from './components/Sidebar';
 
-import '../../styles/components/curriculo.sass';
+import './Curriculo.scss';
 
 function Curriculo() {
   return (
