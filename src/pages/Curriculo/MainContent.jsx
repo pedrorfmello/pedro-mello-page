@@ -1,6 +1,6 @@
-import AboutContainer from '../AboutContainer';
-import ProjectsContainer from '../ProjectsContainer';
-import TechnologiesContainer from '../TechnologiesContainer';
+import AboutContainer from './AboutContainer';
+import ProjectsContainer from './ProjectsContainer';
+import TechnologiesContainer from '../../components/Curriculo/TechnologiesContainer';
 
 import './../../../styles/components/mainContent.sass';
 
